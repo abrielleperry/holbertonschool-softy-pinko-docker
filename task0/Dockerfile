@@ -5,7 +5,7 @@ FROM ubuntu:latest
 RUN apt-get update
 
 # Upgrade currently installed software through APT and install the 'echo' command
-RUN apt-get upgrade -y && apt-get install -y echo
+RUN apt-get upgrade -y
 
 # Set the default command to echo "Hello, World!"
 CMD ["echo", "Hello, World!"]
