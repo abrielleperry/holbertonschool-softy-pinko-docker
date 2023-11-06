@@ -11,7 +11,7 @@ services:
 
   proxy:
     build: ./proxy/
-    image: ./softy-pinko-proxy:task5
+    image: softy-pinko-proxy:task5
     ports:
       - '80:80'
     depends_on:
